@@ -1,0 +1,35 @@
+Names: Zhitong Zhang and Viet Nguyen
+
+UTLNs: zzhang01 and vnguye04
+
+Date: March 3rd, 2020
+
+Files: 
+
+40image.c: Given main for processing input file
+
+a2methods.c & a2plain.c: Files taken from solution of locality to be used in 
+        Pnm_ppm 
+
+image_conversion.h & image_conversion.c: The header and implementation files
+which include functions for converting details of a 2 by 2 block of pixels
+into different types of structs. 
+
+Codeword.h & Codeword.c: The header and implementation file which include 
+functions for compressing (packing the values into 32 bit word, printing the
+character to stdout) and decompressing (extracting values from the word,
+adding pixels to the image)
+
+compress40.c: The implementation of compress40.h header file. We also have some
+helper functions that handle processing of pictures/ values in 2 by 2 block in
+regards to the Pnm_ppm pixel array.
+
+Acknowledgement: 
+        We discussed with Robby and Alessandra on some testing strategies.
+
+To the best of our knowledge, everything is correctly implemented. 
+
+Hours spent: 20 hours of coding, 5 hours of writing the design docs.
+
+
+
