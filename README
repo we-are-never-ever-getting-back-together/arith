@@ -4,6 +4,9 @@ UTLNs: zzhang01 and vnguye04
 
 Date: March 3rd, 2020
 
+Purpose: 
+A C program that takes a PPM image and compresses the image by transforming color spaces and discarding information not easily seen by human eyes. The compressed image is about three times smaller than the same image in PPM format.
+
 Files: 
 
 40image.c: Given main for processing input file
